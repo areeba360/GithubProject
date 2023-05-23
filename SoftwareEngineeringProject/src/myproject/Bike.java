@@ -16,7 +16,9 @@ public class Bike {
     
     void brake() {
     	
+	System.out.println(" you have to follow trafic rules"):    
     	System.out.println("You have to apply the brake");
+	    
     	
     }
     
