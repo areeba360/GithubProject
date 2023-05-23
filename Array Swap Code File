@@ -1,0 +1,24 @@
+public class array {
+    int a = 5;
+    int b = 6;
+
+    void swap() {
+        System.out.println("before swap");
+        System.out.println(+a);
+        System.out.println(+b);
+        a=a+b;
+        b=a-b;
+        a=a-b;
+        System.out.println("after Swap");
+        System.out.println(+a);
+        System.out.println(+b);
+
+
+    }
+}
+         class test2{
+             public static void main(String[] args) {
+                 array ob=new array();
+                 ob.swap();
+             }
+         }
